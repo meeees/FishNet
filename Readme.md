@@ -7,6 +7,7 @@ I used this dataset for my training, so naturally it can only identify these typ
 Also something of note - it seems to perform better when the fish is larger in the image, or make generalizations based on relative size of the fish. A better approach might be 2 models, one to locate the fish and restrict the input image to only suspected fish, then the model to evaluate the fish.
 
 (predict.jpg results vs predict1.1.jpg)
+
 ![image](https://user-images.githubusercontent.com/1458933/183224234-b4290e66-5cd2-4fed-8fa8-74803f45d494.png)
 
 
