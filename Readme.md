@@ -8,7 +8,7 @@ I used this dataset for my training, so naturally it can only identify these typ
 
 ## `make_random_fish.py` and `view_fish.py`
 
-Generative Adversarial Network to try to generate fish. After training for 30,000 generations, I wrote a visualizer to play around with the 20 different input variables available to the model. It's not very good at making fish, even after I limited it to only oscars. Has the colors right and general shape sometimes
+Generative Adversarial Network to try to generate fish. After training for 30,000 generations, I wrote a visualizer to play around with the 20 different input variables available to the model. It's not very good at making fish, even after I limited it to only oscars, but it is *way* better than it started (random noise). It has the colors right and general shape sometimes
 (see fake_fish.png and fake_mess.png).
 
 I also removed most of the images with white backgrounds from the training set. I imagine more consistent training data would produce more consistent fish.
