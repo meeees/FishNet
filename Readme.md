@@ -6,7 +6,7 @@ I used this dataset for my training, so naturally it can only identify these typ
 
 <hr/>
 
-## `make_randoom_fish.py` and `view_fish.py`
+## `make_random_fish.py` and `view_fish.py`
 
 Generative Adversarial Network to try to generate fish. After training for 30,000 generations, I wrote a visualizer to play around with the 20 different input variables available to the model. It's not very good at making fish, even after I limited it to only oscars. Has the colors right and general shape sometimes.
 
