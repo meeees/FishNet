@@ -22,7 +22,19 @@ The identifier seems to perform better when the fish is larger in the image, or 
 <br/>
 <sub>**predict1.1.jpg is a scaled/cropped image of predict.jpg**</sub>
 
-
 Also, plugging the generated image into the id model didn't produce an oscar. It really had no idea what it was looking at.
 
 ![image](https://user-images.githubusercontent.com/1458933/189251806-f8e2a84c-84fd-4a57-881d-9b4300656c41.png)
+
+<hr/>
+Some images from training:
+
+Early:<br/>
+![image](https://user-images.githubusercontent.com/1458933/189252190-bb044b75-09f8-44ce-8a88-308e222d56d5.png)
+
+Mid:<br/>
+![image](https://user-images.githubusercontent.com/1458933/189252248-f236bfee-1fb5-43a3-8501-7557fadb9ef1.png)
+
+Late:<br/>
+![image](https://user-images.githubusercontent.com/1458933/189252105-458b231d-49fa-42d7-9673-014ec3308b60.png)
+
