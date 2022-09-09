@@ -19,6 +19,7 @@ The identifier seems to perform better when the fish is larger in the image, or 
 
 
 ![image](https://user-images.githubusercontent.com/1458933/183224234-b4290e66-5cd2-4fed-8fa8-74803f45d494.png)
+<br/>
 <sub>**predict1.1.jpg is a scaled/cropped image of predict.jpg**</sub>
 <hr/>
 
