@@ -28,7 +28,7 @@ Also, plugging the generated image into the id model didn't produce an oscar. It
 ![image](https://user-images.githubusercontent.com/1458933/189251806-f8e2a84c-84fd-4a57-881d-9b4300656c41.png)
 
 <hr/>
-Some images from training:
+Some images from training
 
 Early (0-10k):<br/>
 <img src=https://user-images.githubusercontent.com/1458933/189252190-bb044b75-09f8-44ce-8a88-308e222d56d5.png width=400 height=400/>
@@ -42,5 +42,7 @@ Mid (10k-20k):<br/>
 Late (20k+):<br/>
 <img src=https://user-images.githubusercontent.com/1458933/189252910-71ac906b-5e94-4f9f-9aac-a41822233b34.png width=400 height=400/>
 <img src=https://user-images.githubusercontent.com/1458933/189252105-458b231d-49fa-42d7-9673-014ec3308b60.png width=400 height=400/>
+
+full video - https://www.youtube.com/watch?v=ghFB0SqnZlQ
 
 
