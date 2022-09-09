@@ -2,3 +2,10 @@ fish_data/**
 conv_output/**
 old_models/**
 __pycache__/**
+archive/**
+others/**
+random_out/**
+random_fish_checkpoints/**
+oscar_no_whites/**
+tests/**
+video.blend

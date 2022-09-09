@@ -96,7 +96,7 @@ if __name__ == '__main__' :
 
     history = model.fit(train_ds, validation_data = val_ds, epochs = epochs, callbacks = [earlyStop] )
 
-    model.save('trained_v6')
+    model.save('trained_test')
 
     make_plot(history)
 

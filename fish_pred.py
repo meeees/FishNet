@@ -75,12 +75,14 @@ if __name__ == '__main__':
 
     model.load_weights('best_so_far')
 
-    # model.summary()
+    model.summary()
 
     # do_the_thing(model, 'hatchet.jpg')
-    do_the_thing(model, 'tetra.png')
-   #  output_layers(model, load_image('electricblue.jpg'), 'conv_output/electricblue.jpg')
+    # do_the_thing(model, 'tetra.png')
+    # output_layers(model, load_image('catfish.jpg'), 'conv_output/catfish')
     # do_the_thing(model, 'seahorse33.jpg')
+    do_the_thing(model, 'zebra.jpg')
+    # output_layers(model, load_image('zebra.jpg'), 'conv_output/zebra')
     # do_the_thing(model, 'predict1.1.jpg')
     # do_the_thing(model, 'predict2.jpg')
 
