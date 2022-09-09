@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import ttk
+from tkinter import ttk, filedialog
 import random
 import make_random_fish as mrf
 import numpy as np
@@ -37,12 +37,17 @@ class App:
         data = self.model(inps, training=False)
         # print(inps)
         # print(data)
-        self.img = tensor_to_image(data).resize(im_size)
+        self.o_img = tensor_to_image(data)
+        self.img = self.o_img.resize(im_size, resample=Image.BOX)
         self.tk_img = ImageTk.PhotoImage(self.img)
         self.label.configure(image=self.tk_img)
 
-
-
+    def save_img(self) :
+        exts = [("PNG file", "*.png")]
+        f = filedialog.asksaveasfile(mode='wb', defaultextension=exts, filetypes=exts)
+        if f:
+            self.o_img.save(f)
+            f.close()
 
     def __init__(self):
         self.root = tk.Tk()
@@ -65,6 +70,9 @@ class App:
         self.tk_img = ImageTk.PhotoImage(self.img)
         self.label = tk.Label(self.root, image=self.tk_img)
         self.label.grid(row=0,column=3,rowspan=12)
+
+        self.save = tk.Button(self.root, text='Save', command=self.save_img)
+        self.save.grid(row=12,column=3)
 
         self.model = mrf.rand_fish_model()
         path = 'best_so_far/random_fish/gen'
