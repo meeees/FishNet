@@ -30,11 +30,11 @@ Also, plugging the generated image into the id model didn't produce an oscar. It
 Some images from training:
 
 Early:<br/>
-![image](https://user-images.githubusercontent.com/1458933/189252190-bb044b75-09f8-44ce-8a88-308e222d56d5.png)
+![image](https://user-images.githubusercontent.com/1458933/189252190-bb044b75-09f8-44ce-8a88-308e222d56d5.png = 400x400)
 
 Mid:<br/>
-![image](https://user-images.githubusercontent.com/1458933/189252248-f236bfee-1fb5-43a3-8501-7557fadb9ef1.png)
+![image](https://user-images.githubusercontent.com/1458933/189252248-f236bfee-1fb5-43a3-8501-7557fadb9ef1.png = 400x400)
 
 Late:<br/>
-![image](https://user-images.githubusercontent.com/1458933/189252105-458b231d-49fa-42d7-9673-014ec3308b60.png)
+![image](https://user-images.githubusercontent.com/1458933/189252105-458b231d-49fa-42d7-9673-014ec3308b60.png = 400x400)
 
